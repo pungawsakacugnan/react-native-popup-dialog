@@ -8,8 +8,8 @@ export type ActionList = Array<Element<DialogButton>>;
 export type DialogProps = {
   visible: boolean;
   children: any;
-  width?: number;
-  height?: number;
+  width?: any;
+  height?: any;
   rounded?: boolean;
   hasOverlay?: boolean;
   overlayPointerEvents?: 'auto' | 'none';
